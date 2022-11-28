@@ -1,0 +1,77 @@
+*{
+    margin:0;
+}
+header{
+    width: 100%;
+    background-color:#000000;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+h1{
+    font-size: 55px;
+    text-align:center;
+    color:white;
+    font-family: impact;
+}
+nav{    
+    background-color:#212121;
+    text-align:center;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    line-height: 2cm;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+div{
+    transition: all 2ms;
+}
+div.hover{
+    transform: scale(1.1);
+}
+
+section{
+    background-image: url(../imagenes/integrante.jpg);
+    width:100%;
+    background-color: #303030;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+img{
+    width:400px;
+    height:254px;
+    margin-left:290px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10% ;
+    box-shadow: #000000 15px 15px 50px;
+    transition: all 2ms;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #000000;
+    height:176px;
+    float:bottom;
+    text-align: center;
+    float:bottom;
+}
+h3{
+    color:white;
+    padding-top: 30px;
+}
+h4{
+    color:#ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: monospace;
+
+}
